@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Super Textarea</title>
+  <link rel="stylesheet" type="text/css" href="../supertext.css" />
+  <script src="../index.js"></script>
+</head>
+  <section>
+    <header>
+      <h2>Editor 1</h2>
+    </header>
+    <article class="editor1">
+      <div class="supertext-content"></div>
+      <textarea class="editable"></textarea>
+    </article>
+  </section>
+  <section>
+    <header>
+      <h2>Editor 2</h2>
+    </header>
+    <article class="editor2">
+      <div class="supertext-content"></div>
+      <textarea class="editable"></textarea>
+    </article>
+  </section>
+  <script>
+    var editor1 = supertext(
+      document.querySelector('.editor1 textarea.editable'),
+      document.querySelector('.editor1 div.supertext-content')
+    );
+    editor1.bindEvents();
+
+    var editor2 = supertext(
+      document.querySelector('.editor2 textarea.editable'),
+      document.querySelector('.editor2 div.supertext-content')
+    );
+    editor2.bindEvents();
+  </script>
+</html>
