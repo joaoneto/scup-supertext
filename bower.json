@@ -1,5 +1,5 @@
 {
-  "name": "scup-supertext",
+  "name": "supertext",
   "main": [
     "index.js",
     "supertext.css"
