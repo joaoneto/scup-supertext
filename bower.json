@@ -1,10 +1,11 @@
 {
   "name": "supertext",
+  "version": "1.0.0",
   "main": [
     "index.js",
     "supertext.css"
   ],
-  "homepage": "https://github.com/scup/scup-supertext",
+  "homepage": "https://github.com/joaoneto/supertext",
   "authors": [
     "João Neto <joaopintoneto@gmail.com>"
   ],
@@ -13,7 +14,6 @@
     "globals"
   ],
   "keywords": [
-    "scup",
     "textarea",
     "contenteditable",
     "like",
